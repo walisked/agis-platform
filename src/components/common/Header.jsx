@@ -74,8 +74,8 @@ const Header = () => {
               onClick={handleMenu}
               color="inherit"
             >
-              <Avatar sx={{ width: 32, height: 32 }} src={user.avatar}>
-                {user.name.charAt(0)}
+              <Avatar sx={{ width: 32, height: 32 }} src={user?.avatar}>
+                {user?.name?.charAt(0) ?? ''}
               </Avatar>
             </IconButton>
             <Menu
