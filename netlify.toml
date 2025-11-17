@@ -22,6 +22,5 @@
   [headers.values]
     Cache-Control = "public, max-age=0, must-revalidate"
 
-# Disable secrets scanning (environment variables are expected)
-[env]
+[context.production.environment]
   SECRETS_SCAN_ENABLED = "false"
