@@ -61,7 +61,6 @@ export const AuthProvider = ({ children }) => {
       }
       // Buyer/Seller - normal email addresses
       else {
-        userType = 'user';
         const namePrefix = email.split('@')[0];
         userData = {
           id: 3,

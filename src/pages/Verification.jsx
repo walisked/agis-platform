@@ -42,6 +42,7 @@ const Verification = () => {
   const [verificationType, setVerificationType] = useState('');
   const [selectedAgent, setSelectedAgent] = useState(null);
   const [documents, setDocuments] = useState([]);
+  const [showAgentModal, setShowAgentModal] = useState(false);
 
   // Mock data
   const verificationTypes = [

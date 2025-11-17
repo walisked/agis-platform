@@ -16,6 +16,10 @@ import {
   Slider,
   InputAdornment,
   Pagination,
+  Dialog,
+  DialogTitle,
+  DialogContent,
+  IconButton,
   Avatar,
   Rating,
 } from '@mui/material';
@@ -32,6 +36,8 @@ import {
   List,
   GridView,
   Message,
+  Close,
+  Phone,
 } from '@mui/icons-material';
 import PaymentModal from '../components/verification/PaymentModal';
 
